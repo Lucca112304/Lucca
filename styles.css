@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Brush Script MT', cursive;
+    color: #FFD700; /* Amarillo para resaltar */
+}
+
+header .slogan {
+    font-size: 1.2em;
+    color: #FFD700;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.menu-item .icon {
+    flex: 1;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    filter: invert(1); /* Blanco sobre negro */
+}
+
+.menu-item .details {
+    flex: 4;
+    text-align: left;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.9em;
+}
